@@ -10,7 +10,7 @@ In this assignment, the task is predict the sentiment of Tweets about four techn
 our goal is to train a classifier to predict whether a tweet is positive, neutral, or negative sentiment.
 
 大致思路：主要分为三部分。
-
+***
 
 第一部分是数据预处理。 
 
