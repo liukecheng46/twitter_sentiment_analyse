@@ -10,8 +10,8 @@ In this assignment, the task is predict the sentiment of Tweets about four techn
 our goal is to train a classifier to predict whether a tweet is positive, neutral, or negative sentiment.
 
 大致思路：主要分为三部分。
-***
-***
+
+
 第一部分是数据预处理。 
 
 
@@ -32,7 +32,8 @@ our goal is to train a classifier to predict whether a tweet is positive, neutra
 
 （有考虑删除的表示会根据是否提升分类效果来进行使用）
 ***
-***
+
+
 第二部分是特征提取
 
 主要使用两种方法：tf-idf和word2vec。
@@ -41,7 +42,8 @@ tfidf将预处理并分完词的数据重新拼接为句子进行处理。
 
 word2vec使用gensim库
 ***
-***
+
+
 第三部分是训练模型并交叉验证寻找最优参数
 
 使用了逻辑回归、多项式贝叶斯分类器、多层感知机、svm、adaboost、随机森林、cnn、lstm等模型。
